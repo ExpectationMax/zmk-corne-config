@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOLS}
   - {t: BKSP, h: NAVIGATION}
   - {t: '$$mdi:keyboard-return$$', h: RGUI}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: Fn}
   SYMBOLS:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
@@ -244,4 +244,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
